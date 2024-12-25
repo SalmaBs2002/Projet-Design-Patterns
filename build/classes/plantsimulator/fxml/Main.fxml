@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="568.0" prefWidth="1354.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="plantsimulator.ui.MainController">
+   <children>
+      <ImageView fitHeight="620.0" fitWidth="1368.0">
+         <image>
+            <Image url="@../resources/images/background.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutY="-2.0" prefHeight="477.0" prefWidth="1329.0"> <!-- Light garden-like color -->
+          <!-- Title Text -->
+          <Text fill="#ffce09" stroke="BLACK" style="-fx-font-size: 24px; -fx-padding: 10px;" text="WELCOME TO MY GARDEN" textAlignment="CENTER" wrappingWidth="967.9797592163086">
+            <font>
+               <Font name="System Bold Italic" size="36.0" />
+            </font>
+          </Text>
+      
+          <!-- GridPane to display plants in a grid format -->
+          <GridPane fx:id="plantGridPane" hgap="20" prefHeight="410.0" prefWidth="934.0" style="-fx-padding: 20px;" vgap="20">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff7e0" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" stroke="WHITE" strokeType="INSIDE" width="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" width="200.0" GridPane.columnIndex="6">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" width="200.0" GridPane.columnIndex="5">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" stroke="WHITE" strokeType="INSIDE" width="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" stroke="WHITE" strokeType="INSIDE" width="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" stroke="WHITE" strokeType="INSIDE" width="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" stroke="WHITE" strokeType="INSIDE" width="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" width="200.0" GridPane.columnIndex="4">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" width="200.0" GridPane.columnIndex="3">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" width="200.0" GridPane.columnIndex="2">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="45.0" stroke="WHITE" strokeType="INSIDE" width="200.0" GridPane.rowIndex="1">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" width="200.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6666666865348816" green="0.8509804010391235" blue="0.3490196168422699" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Rectangle>
+              <!-- Plant 1 -->
+              <ImageView fx:id="plantImage1" fitHeight="150" fitWidth="150" onMouseClicked="#handleImageClick" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <image>
+                  <Image url="@../resources/images/plant1.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="plantStateLabel1" alignment="CENTER" prefHeight="19.0" prefWidth="194.0" text="Healthy" textFill="#2c3329" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="40.0" prefWidth="110.0" GridPane.rowIndex="2">
+               <children>
+                    <ImageView fx:id="fertilizeIcon1" fitHeight="62.0" fitWidth="67.0" onMouseClicked="#handleFertilizeClick">
+                     <image>
+                        <Image url="@../resources/images/fertilizing_icon.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+              <Label fx:id="fertilizeActionMessage1" text="" GridPane.rowIndex="5" />
+              <Label fx:id="waterActionMessage1" text="" GridPane.rowIndex="11" />
+      
+              <!-- Plant 2 -->
+              <ImageView fx:id="plantImage2" fitHeight="150" fitWidth="150" onMouseClicked="#handleImageClick" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../resources/images/plant2.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="plantStateLabel2" alignment="CENTER" prefHeight="19.0" prefWidth="200.0" text="Wilting" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+              <ImageView fx:id="fertilizeIcon2" fitHeight="62.0" fitWidth="71.0" onMouseClicked="#handleFertilizeClick" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/images/fertilizing_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+              <Label fx:id="fertilizeActionMessage2" text="" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+              <Label fx:id="waterActionMessage2" text="" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+      
+              <!-- Plant 3 -->
+              <ImageView fx:id="plantImage3" fitHeight="150" fitWidth="150" onMouseClicked="#handleImageClick" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../resources/images/plant3.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="plantStateLabel3" alignment="CENTER" prefHeight="19.0" prefWidth="190.0" text="Fertilized" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+              <ImageView fx:id="fertilizeIcon3" fitHeight="61.0" fitWidth="74.0" onMouseClicked="#handleFertilizeClick" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/images/fertilizing_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+              <Label fx:id="fertilizeActionMessage3" text="" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+              <Label fx:id="waterActionMessage3" text="" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+      
+              <!-- Plant 4 -->
+              <ImageView fx:id="plantImage4" fitHeight="150" fitWidth="150" onMouseClicked="#handleImageClick" GridPane.columnIndex="4">
+               <image>
+                  <Image url="@../resources/images/plant4.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="plantStateLabel4" alignment="CENTER" prefHeight="19.0" prefWidth="198.0" text="Healthy" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+              <ImageView fx:id="fertilizeIcon4" fitHeight="58.0" fitWidth="67.0" onMouseClicked="#handleFertilizeClick" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/images/fertilizing_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+              <Label fx:id="fertilizeActionMessage4" text="" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+              <Label fx:id="waterActionMessage4" text="" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+      
+              <!-- Plant 5 -->
+              <ImageView fx:id="plantImage5" fitHeight="150" fitWidth="150" onMouseClicked="#handleImageClick" GridPane.columnIndex="5">
+               <image>
+                  <Image url="@../resources/images/plant5.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="plantStateLabel5" alignment="CENTER" prefHeight="19.0" prefWidth="200.0" text="Wilting" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+              <ImageView fx:id="fertilizeIcon5" fitHeight="59.0" fitWidth="70.0" onMouseClicked="#handleFertilizeClick" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/images/fertilizing_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+              <Label fx:id="fertilizeActionMessage5" text="" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+              <Label fx:id="waterActionMessage5" text="" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+      
+              <!-- Plant 6 -->
+              <ImageView fx:id="plantImage6" fitHeight="150" fitWidth="150" onMouseClicked="#handleImageClick" GridPane.columnIndex="6">
+               <image>
+                  <Image url="@../resources/images/plant6.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="plantStateLabel6" alignment="CENTER" prefHeight="19.0" prefWidth="197.0" text="Fertilized" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+              <ImageView fx:id="fertilizeIcon6" fitHeight="59.0" fitWidth="73.0" onMouseClicked="#handleFertilizeClick" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/images/fertilizing_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+              <Label fx:id="fertilizeActionMessage6" text="" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+              <ImageView fx:id="waterIcon6" fitHeight="96.0" fitWidth="128.0" onMouseClicked="#handleWaterClick" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../resources/images/watering_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <Label fx:id="waterActionMessage6" text="" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+              <ImageView fx:id="waterIcon1" fitHeight="101.0" fitWidth="134.0" onMouseClicked="#handleWaterClick" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../resources/images/watering_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+              <ImageView fx:id="waterIcon2" fitHeight="93.0" fitWidth="110.0" onMouseClicked="#handleWaterClick" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../resources/images/watering_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <ImageView fx:id="waterIcon3" fitHeight="98.0" fitWidth="132.0" onMouseClicked="#handleWaterClick" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../resources/images/watering_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <ImageView fx:id="waterIcon4" fitHeight="107.0" fitWidth="124.0" onMouseClicked="#handleWaterClick" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../resources/images/watering_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+              <ImageView fx:id="waterIcon5" fitHeight="105.0" fitWidth="129.0" onMouseClicked="#handleWaterClick" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../resources/images/watering_icon.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect></ImageView>
+      
+            <columnConstraints>
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="75.19997558593752" />
+               <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="17.600000000000023" minHeight="0.0" prefHeight="17.600000000000023" />
+               <RowConstraints maxHeight="17.600000000000023" minHeight="0.0" prefHeight="17.600000000000023" />
+            </rowConstraints>
+          </GridPane>
+      </VBox>
+   </children>
+</AnchorPane>

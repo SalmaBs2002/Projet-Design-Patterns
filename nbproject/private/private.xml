@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/PlantState.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/decorator/FertilizingDecorator.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/PlantMemento.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/ui/PlantStateDialogController.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/decorator/PlantAction.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/HealthyState.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/fxml/PlantStateDialog.fxml</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/Plant.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/WiltedState.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/FertilizedState.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/decorator/PlantDecorator.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/ui/PlantSimulator.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/manager/GameManager.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/decorator/SpecialWateringDecorator.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/CareTaker.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/model/DeadState.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/ui/MainController.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/DesignPatterns/PlantSimulator/src/plantsimulator/fxml/Main.fxml</file>
+        </group>
+    </open-files>
+</project-private>
